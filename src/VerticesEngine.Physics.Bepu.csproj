@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+  <TargetFramework>net6.0</TargetFramework>
+    <Configurations>Debug;Release</Configurations>
+    <Authors>Virtex.Edge.Design</Authors>
+    <Description>This is a consolidated and modified version of the BEPU Physics Library for use in the Vertices Engine.</Description>
+    <PackageId>VerticesEngine.Physics.Bepu</PackageId>
+    <Version>1.0.0</Version>
+		<PackageIcon>icon.png</PackageIcon>
+		<Product>Itchio Platform API Wrapper</Product>
+		<PackageProjectUrl>https://github.com/VirtexEdgeDesign/VerticesEngine.Physics.Bepu</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/VirtexEdgeDesign/VerticesEngine.Physics.Bepu</RepositoryUrl>
+  	<PackageTags>MonoGame, Game Engine, Physics, Physics Engine</PackageTags>
+  	<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin/$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin/$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\LICENSE.md" Pack="true" PackagePath="\" />
+		<None Include="..\img\icon.png" Pack="true" PackagePath="\" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>
