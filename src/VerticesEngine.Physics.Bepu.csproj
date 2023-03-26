@@ -7,7 +7,7 @@
     <PackageId>VerticesEngine.Physics.Bepu</PackageId>
     <Version>1.0.0</Version>
 		<PackageIcon>icon.png</PackageIcon>
-		<Product>Itchio Platform API Wrapper</Product>
+		<Product>Bepu v1 Physics Library for Vertices Engine</Product>
 		<PackageProjectUrl>https://github.com/VirtexEdgeDesign/VerticesEngine.Physics.Bepu</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/VirtexEdgeDesign/VerticesEngine.Physics.Bepu</RepositoryUrl>
   	<PackageTags>MonoGame, Game Engine, Physics, Physics Engine</PackageTags>
